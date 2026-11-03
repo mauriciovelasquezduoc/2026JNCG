@@ -5,4 +5,3 @@ ENV MYSQL_DATABASE=mydatabase
 ENV MYSQL_USER=myuser
 ENV MYSQL_PASSWORD=password
 
-COPY ./create.sql /docker-entrypoint-initdb.d/
